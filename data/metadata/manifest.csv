@@ -1,0 +1,11 @@
+path,category,size_bytes,sha256,mat_format,distribution
+data/processed/average.mat,processed,752530043,4d4ac420f1d496b6be088c260e24516f037e69539627f9f0f9ce3f04826bdb6d,7.3 (HDF5),separate_data_archive
+data/processed/average2.mat,processed,1590996,996afa6c1f51d92da61a5e516821670cc731020d0ef488878c2117bebe06c44c,7.3 (HDF5),git
+data/processed/driven_2.mat,processed,9245849263,ea20a9883473438c0ba533db31de884fdf0fe40dc3c8455848f27c8c515b3d7a,7.3 (HDF5),separate_data_archive
+"data/processed/driven_mu=5,v=3.8_20.mat",processed,6136743236,b69e5c9e925ab22f669b42fabd3ad37ec195750a9356f4e37fbbf9b51e70f91a,7.3 (HDF5),separate_data_archive
+"data/processed/driven_mu=6,v=7_20.mat",processed,132120258,0672f97740099a2b7bc51d2f6fc02eacf74c31c87adf57cd19061f57694c3c7a,7.3 (HDF5),separate_data_archive
+"data/processed/driven_mu=8,v=13.5_20.mat",processed,6163072365,eea8ccd3334e9ec657ee0a4c8120828e4b5fa9ce676076ae18a5118bea1a0f41,7.3 (HDF5),separate_data_archive
+data/processed/structure_factor.mat,processed,49389,f56e8d6d2bc4d061699bc7b0ecaaf9d4b4f07e47fc6d6cb84656fe5515f59cc5,7.3 (HDF5),git
+"data/reference/mu=5,nz=30,vy=3.8_20.mat",reference,3968,c786777158a5ee4218675de798d1cb80843eafc0b2bf84de2b74832497eb743a,7.3 (HDF5),git
+"data/reference/mu=6,nz=30,vy=7_20.mat",reference,1376,31ed1de551834329918289c006a1019822fb798a04c85e091ec820b560e2616e,5.0,git
+"data/reference/mu=8,nz=30,vy=13.5_20.mat",reference,3968,c6703c419422c3118488b05f24c78f82aef1de8c427a5136cd341fdf1b704ba9,7.3 (HDF5),git

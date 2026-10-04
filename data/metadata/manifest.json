@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "hash_algorithm": "SHA-256",
+  "total_files": 10,
+  "total_size_bytes": 22431964862,
+  "files": [
+    {
+      "path": "data/processed/average.mat",
+      "original_name": "average.mat",
+      "category": "processed",
+      "size_bytes": 752530043,
+      "sha256": "4d4ac420f1d496b6be088c260e24516f037e69539627f9f0f9ce3f04826bdb6d",
+      "mat_format": "7.3 (HDF5)",
+      "mat_header": "MATLAB 7.3 MAT-file, Platform: PCWIN64, Created on: Sat Jun 27 16:31:08 2026 HDF5 schema 1.00 .",
+      "distribution": "separate_data_archive"
+    },
+    {
+      "path": "data/processed/average2.mat",
+      "original_name": "average2.mat",
+      "category": "processed",
+      "size_bytes": 1590996,
+      "sha256": "996afa6c1f51d92da61a5e516821670cc731020d0ef488878c2117bebe06c44c",
+      "mat_format": "7.3 (HDF5)",
+      "mat_header": "MATLAB 7.3 MAT-file, Platform: PCWIN64, Created on: Mon Aug 10 16:19:40 2026 HDF5 schema 1.00 .",
+      "distribution": "git"
+    },
+    {
+      "path": "data/processed/driven_2.mat",
+      "original_name": "driven_2.mat",
+      "category": "processed",
+      "size_bytes": 9245849263,
+      "sha256": "ea20a9883473438c0ba533db31de884fdf0fe40dc3c8455848f27c8c515b3d7a",
+      "mat_format": "7.3 (HDF5)",
+      "mat_header": "MATLAB 7.3 MAT-file, Platform: PCWIN64, Created on: Sun Aug  9 11:36:36 2026 HDF5 schema 1.00 .",
+      "distribution": "separate_data_archive"
+    },
+    {
+      "path": "data/processed/driven_mu=5,v=3.8_20.mat",
+      "original_name": "driven_mu=5,v=3.8_20.mat",
+      "category": "processed",
+      "size_bytes": 6136743236,
+      "sha256": "b69e5c9e925ab22f669b42fabd3ad37ec195750a9356f4e37fbbf9b51e70f91a",
+      "mat_format": "7.3 (HDF5)",
+      "mat_header": "MATLAB 7.3 MAT-file, Platform: GLNXA64, Created on: Thu Aug 13 18:04:23 2026 HDF5 schema 1.00 .",
+      "distribution": "separate_data_archive"
+    },
+    {
+      "path": "data/processed/driven_mu=6,v=7_20.mat",
+      "original_name": "driven_mu=6,v=7_20.mat",
+      "category": "processed",
+      "size_bytes": 132120258,
+      "sha256": "0672f97740099a2b7bc51d2f6fc02eacf74c31c87adf57cd19061f57694c3c7a",
+      "mat_format": "7.3 (HDF5)",
+      "mat_header": "MATLAB 7.3 MAT-file, Platform: PCWIN64, Created on: Wed Aug 12 11:02:21 2026 HDF5 schema 1.00 .",
+      "distribution": "separate_data_archive"
+    },
+    {
+      "path": "data/processed/driven_mu=8,v=13.5_20.mat",
+      "original_name": "driven_mu=8,v=13.5_20.mat",
+      "category": "processed",
+      "size_bytes": 6163072365,
+      "sha256": "eea8ccd3334e9ec657ee0a4c8120828e4b5fa9ce676076ae18a5118bea1a0f41",
+      "mat_format": "7.3 (HDF5)",
+      "mat_header": "MATLAB 7.3 MAT-file, Platform: GLNXA64, Created on: Thu Aug 13 19:30:33 2026 HDF5 schema 1.00 .",
+      "distribution": "separate_data_archive"
+    },
+    {
+      "path": "data/processed/structure_factor.mat",
+      "original_name": "structure_factor.mat",
+      "category": "processed",
+      "size_bytes": 49389,
+      "sha256": "f56e8d6d2bc4d061699bc7b0ecaaf9d4b4f07e47fc6d6cb84656fe5515f59cc5",
+      "mat_format": "7.3 (HDF5)",
+      "mat_header": "MATLAB 7.3 MAT-file, Platform: PCWIN64, Created on: Thu Aug  6 16:09:57 2026 HDF5 schema 1.00 .",
+      "distribution": "git"
+    },
+    {
+      "path": "data/reference/mu=5,nz=30,vy=3.8_20.mat",
+      "original_name": "mu=5,nz=30,vy=3.8_20.mat",
+      "category": "reference",
+      "size_bytes": 3968,
+      "sha256": "c786777158a5ee4218675de798d1cb80843eafc0b2bf84de2b74832497eb743a",
+      "mat_format": "7.3 (HDF5)",
+      "mat_header": "MATLAB 7.3 MAT-file, Platform: PCWIN64, Created on: Sun Aug  9 18:56:59 2026 HDF5 schema 1.00 .",
+      "distribution": "git"
+    },
+    {
+      "path": "data/reference/mu=6,nz=30,vy=7_20.mat",
+      "original_name": "mu=6,nz=30,vy=7_20.mat",
+      "category": "reference",
+      "size_bytes": 1376,
+      "sha256": "31ed1de551834329918289c006a1019822fb798a04c85e091ec820b560e2616e",
+      "mat_format": "5.0",
+      "mat_header": "MATLAB 5.0 MAT-file, Platform: PCWIN64, Created on: Wed Jul 30 15:03:29 2025",
+      "distribution": "git"
+    },
+    {
+      "path": "data/reference/mu=8,nz=30,vy=13.5_20.mat",
+      "original_name": "mu=8,nz=30,vy=13.5_20.mat",
+      "category": "reference",
+      "size_bytes": 3968,
+      "sha256": "c6703c419422c3118488b05f24c78f82aef1de8c427a5136cd341fdf1b704ba9",
+      "mat_format": "7.3 (HDF5)",
+      "mat_header": "MATLAB 7.3 MAT-file, Platform: PCWIN64, Created on: Sun Aug  9 19:04:16 2026 HDF5 schema 1.00 .",
+      "distribution": "git"
+    }
+  ]
+}
