@@ -1,6 +1,6 @@
 # Data organization
 
-The local collection contains **10 MAT files**, totaling **22,431,964,862 bytes** (22.43 GB; 20.89 GiB). Data files keep their original filenames and binary contents.
+The data manifest records **10 source MAT files**, totaling **22,431,964,862 bytes** (22.43 GB; 20.89 GiB). Five compact files are included in the repository. Included data keep their original filenames and binary contents.
 
 | Directory | Content | Git distribution |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ The `vy` token in stationary filenames is a drive index: the scripts use the bou
 
 ## Large processed datasets
 
-The remaining five MAT files are kept locally in `processed/`. They are represented in Git by their inventory entries. Several individual files exceed GitHub's LFS per-file limits, so the default repository does not use LFS. If these datasets are published separately, preserve the filenames and checksums and add the archive URL or DOI to this guide.
+The remaining five MAT files are excluded from the repository and represented by their inventory entries. The recorded filenames and checksums identify these source datasets. The repository does not use LFS; generate the processed results through the corresponding simulation and analysis workflows.
 
 GitHub blocks ordinary Git files larger than 100 MiB, and LFS limits depend on the account plan. See [GitHub's file-size documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) and [LFS documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage).
 

@@ -1,28 +1,22 @@
 # Publishing on GitHub
 
-The upload contains the MATLAB source, English documentation, third-party attribution, five compact MAT files, and the data inventory. Checkpoints, large processed datasets, generated outputs, and the local source backup are excluded by `.gitignore`.
+The upload archive contains the MATLAB source, English documentation, third-party attribution, runtime checks, five compact MAT files, and the data inventory. Checkpoints, large processed datasets, generated outputs, and the private source backup are excluded.
 
 ## Upload the repository
 
-Create an empty GitHub repository, then use its actual URL from the repository root:
+1. Extract `holographic-quantum-turbulence-github.zip` and open the inner `holographic-quantum-turbulence` directory.
+2. Create an empty GitHub repository. The archive already includes `README.md` and `.gitignore`, so use the supplied files rather than generating replacements.
+3. Open the repository's upload page: use **uploading an existing file** for an empty repository, or **Add file > Upload files** for an existing one.
+4. Select all files and subdirectories inside the extracted directory and drag them from the file manager onto the upload area. The file chooser selects files; drag and drop also accepts folders and preserves their paths.
+5. Confirm that the upload list includes `.gitignore`, `.gitattributes`, and `.editorconfig`, and that paths such as `src/numerics/FD.m` are retained. Enter `Initial release` as the commit message and submit the upload.
 
-```text
-git add .
-git status --short
-git commit -m "Organize holographic quantum turbulence code and data"
-git remote add origin <your-repository-url>
-git push -u origin main
-```
+After uploading, `README.md`, `setup_project.m`, `src/`, `scripts/`, and `data/` should appear directly at the repository root.
 
-If creating a fresh copy from the upload ZIP, initialize it first with `git init -b main`. The packaging tool includes only files eligible for Git, and the included MAT files together are approximately 1.64 MB.
+See [GitHub's upload instructions](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) for the browser workflow.
 
-After creating the public repository, add its URL, author names, and associated paper identifier to the citation section in `README.md`. Choose the project code and data licenses with the rights holders, keeping the upstream differentiation routines separately attributed.
+## Data included in the repository
 
-## Publish large data separately
-
-The large processed MAT files remain available locally, and their checksums and sizes are included in the manifest. A separate research-data archive can distribute them while keeping the GitHub checkout small. Link the archive or DOI from `data/README.md` when it is published.
-
-GitHub rejects ordinary Git files above 100 MiB. The largest local dataset is approximately 9.25 GB; some other files are approximately 6.14–6.16 GB, so they also exceed the documented LFS per-file limits. See [ordinary Git file limits](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) and [LFS limits](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage).
+The three stationary profiles and two compact processed results total approximately 1.65 MB. The other five source MAT files are represented by filenames, sizes, and checksums in the data manifest. Simulation checkpoints and large processed results are intentionally omitted; use the simulation and analysis workflows to generate the required data.
 
 ## Build an upload archive
 

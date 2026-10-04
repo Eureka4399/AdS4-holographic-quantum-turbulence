@@ -70,7 +70,7 @@ For short runtime checks with all result saving and export disabled, see [tests/
 
 ## Data
 
-The repository includes three stationary profiles, `average2.mat`, and `structure_factor.mat`, totaling approximately 1.64 MB. The other processed arrays remain local and are excluded from Git to keep the repository small. All ten archived MAT files are recorded in the [data manifest](data/metadata/manifest.csv).
+The repository includes three stationary profiles, `average2.mat`, and `structure_factor.mat`, totaling approximately 1.65 MB. The other processed arrays are excluded from Git to keep the repository small. All ten source MAT files are recorded in the [data manifest](data/metadata/manifest.csv).
 
 See [the data guide](data/README.md) for storage policy and [the data dictionary](docs/DATA_DICTIONARY.md) for field names, array ordering, and checkpoint conventions. Checkpoint omission is intentional; these files are intermediate simulation outputs.
 
@@ -82,4 +82,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution conventions and [the pub
 
 ## Citation and attribution
 
-When using this code in research, cite the repository version and the associated research publication. The upstream differentiation routines are attributed in [THIRD_PARTY.md](THIRD_PARTY.md). Authors, a repository URL, and a paper identifier can be added when the public repository is created.
+When using this code in research, cite *Holographic Quantum Turbulence* and identify the release tag or commit hash used in your calculations. Attribution and the literature reference for the bundled differentiation routines are provided in [THIRD_PARTY.md](THIRD_PARTY.md).

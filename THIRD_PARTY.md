@@ -11,4 +11,4 @@ Reference: J. A. C. Weideman and S. C. Reddy, *A MATLAB Differentiation Matrix S
 
 Upstream source: [DMSUITE on MATLAB Central](https://www.mathworks.com/matlabcentral/fileexchange/29-dmsuite).
 
-These files are attributed to their upstream authors. Their original headers are preserved, and they should be considered separately when choosing a license for the project-authored code.
+The bundled routines preserve their original source headers, author credits, and correction notes.
