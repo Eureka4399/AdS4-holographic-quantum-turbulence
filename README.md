@@ -1,6 +1,6 @@
 # Holographic Quantum Turbulence
 
-MATLAB code for simulating and analyzing quantum turbulence in an AdS4 holographic superfluid. The repository includes stationary radial profiles, driven-flow and vortex-lattice time evolution, vortex diagnostics, energy spectra, structure functions, and figure-generation scripts.
+MATLAB code for simulating and analyzing quantum turbulence in an AdS4 holographic superfluid ([arXiv:2608.17012](https://arxiv.org/abs/2608.17012)). The repository includes stationary radial profiles, driven-flow and vortex-lattice time evolution, vortex diagnostics, energy spectra, structure functions, and figure-generation scripts.
 
 Checkpoint data are intentionally excluded from the repository. Generate the required checkpoints with the simulation scripts before running the corresponding analysis sections. Compact stationary inputs and selected processed results are included.
 
